@@ -1,0 +1,65 @@
+name: KiteUtility
+version: '1.0.0'
+main: gg.kite.core.Main
+api-version: '1.21'
+authors: [ KiteGG ]
+website: https://ks.akii.pro
+commands:
+  gamemode:
+    description: Changes the gamemode of a player.
+    usage: /<command> <type> [player]
+    permission: kite.gamemode
+  god:
+    description: Toggles god mode for a player.
+    usage: /<command> [player]
+    permission: kite.god
+  openinv:
+    description: Opens a player's inventory.
+    usage: /<command> <player>
+    permission: kite.openinv
+  enderchest:
+    description: Opens a player's ender chest.
+    usage: /<command> [player]
+    permission: kite.enderchest
+  fix:
+    description: Repairs the held item.
+    usage: /<command>
+    permission: kite.fix
+  tpa:
+    description: Sends a teleport request to a player.
+    usage: /<command> <player>
+    permission: kite.tpa
+  tpaccept:
+    description: Accepts a teleport request.
+    usage: /<command>
+    permission: kite.tpa
+  tpdeny:
+    description: Denies a teleport request.
+    usage: /<command>
+    permission: kite.tpa
+  trash:
+    description: Opens a trash menu.
+    usage: /<command>
+    permission: kite.trash
+permissions:
+  kite.gamemode:
+    description: Allows changing gamemodes.
+    default: op
+  kite.god:
+    description: Allows toggling god mode.
+    default: op
+  kite.openinv:
+    description: Allows opening player inventories.
+    default: op
+  kite.enderchest:
+    description: Allows opening ender chests.
+    default: op
+  kite.fix:
+    description: Allows repairing items.
+    default: op
+  kite.tpa:
+    description: Allows using TPA commands.
+    default: true
+  kite.trash:
+    description: Allows opening the trash menu.
+    default: true

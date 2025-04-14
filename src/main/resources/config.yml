@@ -1,0 +1,21 @@
+tpa:
+  timeout: 30
+messages:
+  no-permission: "&cYou do not have permission to use this command."
+  player-not-found: "&cPlayer {player} not found."
+  invalid-gamemode: "&cInvalid gamemode specified."
+  gamemode-success: "&aSet {player}'s gamemode to {gamemode}."
+  god-enabled: "&aGod mode enabled for {player}."
+  god-disabled: "&aGod mode disabled for {player}."
+  openinv-success: "&aOpened {player}'s inventory."
+  enderchest-success: "&aOpened {player}'s ender chest."
+  fix-success: "&aItem repaired."
+  fix-no-item: "&cYou must hold an item to repair."
+  tpa-sent: "&aTeleport request sent to {player}."
+  tpa-received: "&a{player} has requested to teleport to you. Use /tpaccept or /tpdeny."
+  tpa-accepted: "&aTeleport request accepted."
+  tpa-denied: "&aTeleport request denied."
+  tpa-no-request: "&cNo pending teleport requests."
+  tpa-expired: "&cTeleport request to/from {player} has expired."
+  trash-opened: "&aTrash menu opened."
+  console-player-required: "&cThis command requires a player to be specified when run from console."
